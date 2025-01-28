@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT初心者まとめサイト(2024.12.31までの情報)</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>VALORANT初心者向けまとめサイト(パッチ9.11までの情報)</h1>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html" class="menu">ホーム画面</a></li>
+                <li><a href="beginner.html" class="menu">初心者が上達するためには</a></li>
+                <li class="dropdown">
+                    <a href="agent.html" class="menu">エージェント紹介</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="agent.html#duelist" class="submenu">デュエリスト</a></li>
+                        <li><a href="agent_initiator.html" class="submenu">イニシエーター</a></li>
+                        <li><a href="agent_sentinel.html" class="submenu">センチネル</a></li>
+                        <li><a href="agent_controller.html" class="submenu">コントローラー</a></li>
+                    </ul>
+                </li>
+                <li><a href="map.html" class="menu">マップ紹介</a></li>
+                <li><a href="VALORANT1.html" class="menu">VALORANT用語紹介</a></li>
+                <li><a href="proteam.html" class="menu">プロチームの紹介</a></li>
+                <li><a href="tournament.html" class="menu">世界大会や日本の大会の紹介</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="game-info">
+        <h2>VALORANTとは？</h2>
+        <p>VALORANTは、2020年6月2日からRIOTGAMES(ライアットゲームズ)によりリリースされた5vs5のタクティカルシューティングゲーム。攻撃側と防衛側の役割をプレイし、敵チームの殲滅、スパイク（爆弾）の設置・爆破と解除を目指す。各プレイヤーは異なる能力を持つ「エージェント」を選び、協力して勝利を目指す。
+        </p>
+
+        <h3>エージェントの種類について</h3>
+        <p>VALORANTには4つの役割があり、それぞれ異なる役割を持っている。</p>
+        <ul>
+            <li class="game-mode">
+                <a href="agent.html" class="link-box">
+                    <h4>デュエリスト</h4>
+                    <span class="link-icon"></span>
+                </a>
+                <p><strong>役割:</strong> 先陣を切り、キルを狙うエージェント。</p>
+                <p><strong>特徴:</strong>キルすることに優れている能力を持ち、ソロでも活躍できる。
+            </li>
+            <li class="game-mode">
+                <a href="agent_initiator.html" class="link-box">
+                    <h4>イニシエーター</h4>
+                    <span class="link-icon"></span>
+                </a>
+                <p><strong>役割:</strong> 敵の位置を索敵したり、敵を混乱させ、味方がキルしやすい状況を作るエージェント。</p>
+                <p><strong>特徴:</strong>エリア制圧や情報収集に優れたスキルを持つ。主に味方のサポート役。</p>
+            <li class="game-mode">
+                <a href="agent_sentinel.html" class="link-box">
+                    <h4>センチネル</h4>
+                    <span class="link-icon"></span>
+                </a>
+                <p><strong>役割:</strong> エリアを守ることに特化したエージェント。</p>
+                <p><strong>特徴:</strong>敵の進行を遅延することが主な目的。その他にも回復スキルを持つエージェントやエリアを監視するスキルなどを持っている。
+            </li>
+            <li class="game-mode">
+                <a href="agent_controller.html" class="link-box">
+                    <h4>コントローラー</h4>
+                    <span class="link-icon"></span>
+                </a>
+                <p><strong>役割:</strong> 視界を遮り、味方が有利になる状況を作り、マップをコントロールするエージェント。</p>
+                <p><strong>特徴:</strong>敵の行動を妨害するスキルを持っており、攻撃時、防衛時ともに重要な役割を果たす。
+            </li>
+
+            <div class="money-mode">
+                <h3>マネーシステム</h3>
+                <p>VALORANTでは、ラウンドごとに獲得するお金（クレジット）が重要な要素となる。このお金を使って武器やスキルなどを購入し、次のラウンドに備える。</p>
+                <ul>
+                    <li><strong>ラウンドの開始時:</strong> <span class="highlight-text">各プレイヤーには一定の金額が与えられる。</span></li>
+                    <li><strong>勝利:</strong> <span class="highlight-text">勝利したチームはクレジットを多く獲得し、次のラウンドで強い装備を購入できる。</span>
+                    </li>
+                    <li><strong>敗北:</strong> <span
+                            class="highlight-text">負けたチームは、次のラウンドでの購入に制限がかかりますが、敗北ボーナスが与えられるため、巻き返しのチャンスがある。</span></li>
+            </div>
+            <table border="1">
+                <tr>
+                    <th>クレジット入手時</th>
+                    <th>クレジット入手額</th>
+                </tr>
+                <tr>
+                    <td>初期クレジット(1、13ラウンド目)</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>勝利</td>
+                    <td>3000</td>
+                </tr>
+                <tr>
+                    <td>敗北</td>
+                    <td>1900</td>
+                </tr>
+                <tr>
+                    <td>2連敗</td>
+                    <td>敗北で貰えるクレジット(1900)+500</td>
+                </tr>
+                <tr>
+                    <td>3連敗</td>
+                    <td>敗北で貰えるクレジット(1900)+1000</td>
+                </tr>
+                <tr>
+                    <td>生存状態での敗北</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>1キル</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>スパイクの設置・解除</td>
+                    <td>300</td>
+                </tr>
+            </table>
+        </ul>
+
+        <div class="win-mode">
+            <h3>勝利条件</h3>
+            <p>VALORANTの勝利条件は、攻撃側と防御側が交互にラウンドをプレイし、13ラウンドを先取したチームが勝利。</p>
+            <ul>
+                <li><strong>攻撃側:</strong> スパイクを設置して爆破させる、もしくは敵チーム全員を倒して勝利。</li>
+                <li><strong>防御側:</strong> 設置されたスパイクを解除する、もしくは敵チーム全員を倒して勝利。</li>
+                <li><strong>引き分け:</strong> コンペティティブのみ有効であり、12ラウンドで同点の場合、投票を行いサドンデスを行うか、引き分けで終了するか10人のプレイヤーが決める。</li>
+            </ul>
+        </div>
+
+        <h3>ゲームモード</h3>
+        <p>VALORANTにはいくつかの異なるゲームモードがあり、様々な遊び方で楽しむことができる。</p>
+        <ul>
+            <li class="game-mode">
+                <h4>アンレート</h4>
+                <p><strong>概要:</strong> ランダムに選ばれたマップでプレイ。クレジットで武器やスキル、シールドの購入を行い戦う。12ラウンド終了後に攻守交代。</p>
+                <p><strong>参加人数:</strong>5vs5
+                <p><strong>対戦時間:</strong> 約30~45分</p>
+                <p><strong>勝利条件:</strong> 先に13ラウンド取ったチームが勝利。12:12の場合はサドンデスで先に1ラウンド取得したチームが勝利。</p>
+            </li>
+            <li class="game-mode">
+                <h4>コンペティティブ</h4>
+                <p><strong>概要:</strong> ランク付けされた試合。自分の実力に合った対戦が行える。基本ルールはアンレートと同じ。</p>
+                <p><strong>参加人数:</strong>5vs5
+                <p><strong>対戦時間:</strong> 約30~50分</p>
+                <p><strong>勝利条件:</strong> 13ラウンド先取で勝利。12:12の場合、2ラウンド連続勝利したチームが勝利。</p>
+            </li>
+            <li class="game-mode">
+                <h4>スイフトプレイ</h4>
+                <p><strong>概要:</strong>
+                    基本ルールはアンレートと同じだが、貰えるクレジットは勝敗関係なく決められている。短時間で終わるため、アンレートよりも気軽にできるゲームモード。4ラウンド終了後に攻守交代。</p>
+                <p><strong>参加人数:</strong>5vs5
+                <p><strong>対戦時間:</strong> 約15~25分</p>
+                <p><strong>勝利条件:</strong> 5ラウンド先取で勝利。4:4の場合はサドンデスで先に1ラウンド取得したチームが勝利。</p>
+            </li>
+            <li class="game-mode">
+                <h4>スパイクラッシュ</h4>
+                <p><strong>概要:</strong>
+                    攻撃側が全員スパイクを持っており、決められた場所に落ちているオーブを拾い、それを駆使し戦う。武器はランダムで用意され、シールドやスキルは毎ラウンド回復する。
+                </p>
+                <p><strong>参加人数:</strong>5vs5
+                <p><strong>対戦時間:</strong> 約10~15分</p>
+                <p><strong>勝利条件:</strong> 4ラウンド先取で勝利。3:3の場合はサドンデスで先に1ラウンド取得したチームが勝利。</p>
+            </li>
+            <li class="game-mode">
+                <h4>デスマッチ</h4>
+                <p><strong>概要:</strong> 個人戦。誰よりも早く40キルをしたプレイヤーが勝利。死んでもすぐに復活することができる。武器のみ購入し、スキルは使えない。</p>
+                <p><strong>参加人数:</strong>14人
+                <p><strong>対戦時間:</strong> 約5~9分。制限時間があり、9分を超えると強制的に終了。</p>
+                <p><strong>勝利条件:</strong> 40キル達成することで勝利。</p>
+            </li>
+            <li class="game-mode">
+                <h4>チームデスマッチ</h4>
+                <p><strong>概要:</strong> ステージ段階があり、使用可能な武器が変化する。スキルが時間経過でリチャージされる。死んでもすぐに復活することができる。</p>
+                <p><strong>参加人数:</strong>5vs5
+                <p><strong>対戦時間:</strong>約7~9分30秒。制限時間があり、9分30秒を超えると強制的に終了。</p>
+                <p><strong>勝利条件:</strong> チームで100キル先取。</p>
+            </li>
+            <li class="game-mode">
+                <h4>エスカレーション</h4>
+                <p><strong>概要:</strong>レベル1から始まり、敵をキルすることでレベルが上がっていく。武器はレベルに応じて強制的に変更される。スキルは使用不可。</p>
+                <p><strong>参加人数:</strong>5vs5
+                <p><strong>対戦時間:</strong> 約8~10分。制限時間があり、10分を超えると強制的に終了。</p>
+                <p><strong>勝利条件:</strong> レベル12達成したチームが勝利。</p>
+            </li>
+            <li class="game-mode">
+                <h4>カスタムゲーム</h4>
+                <p><strong>概要:</strong>マップを散策できたり、仲間同士でデスマッチをしたりと好きにやりたいゲームモードを遊べる。ただし解放しているエージェント以外は使用不可。</p>
+                <p><strong>参加人数:</strong>プレイヤーとしては10人。
+            </li>
+        </ul>
+
+        <h3>武器の種類</h3>
+        <p>VALORANTでは、様々な武器が登場し、毎ラウンドごとに武器やスキル、その他アイテムを購入する。戦術に合わせて使い分けることが求められる。</p>
+        <ul>
+            <div class="image-container">
+                <!--ショップのスクリーンショットを貼る-->
+                <img src="shop.png" alt="ショップ">
+            </div>
+            <div class="gun-mode">
+                <li><strong>ヴァンダル:</strong> 2900クレジットのアサルトライフル。50mまでヘッドショットで一撃。全体的にバランスが良い。</li>
+                <li><strong>ファントム:</strong> 2900クレジットのアサルトライフル。15mまでヘッドショットで一撃。サイレンサーがついてることにより、弾の軌道が見えない。</li>
+                <li><strong>スペクター:</strong> 1600クレジットの高精度なサイレンサー付きサブマシンガン。近距離から中距離で非常に有効。</li>
+                <li><strong>ジャッジ:</strong> 1850クレジットの近距離で非常に有効なショットガン。反動が大きいが、接近戦では絶大な威力を誇る。</li>
+                <li><strong>オペレーター:</strong>
+                    4700クレジットの2段階のスコープが使えるスナイパーライフル。脚部以外に当たればどこでも一撃。スナイパーの運用は難しいため、初心者には向かない。
+                </li>
+                <li><strong>シェリフ:</strong> 800クレジットの威力の高いハンドガン。30mまではヘッドショットで一撃。エコラウンドでよく使用される。ただ当てるのが難しい。</li>
+                <li><strong>ゴースト:</strong>500クレジットのサイレンサー付きのハンドガン。ピストルラウンドでよく使われる。</li>
+                <li><strong>クラシック:</strong> 無料で使えるハンドガン。右クリックで3発同時に発射できる。</li>
+
+
+
+                <h3>その他に買えるアイテム</h3>
+
+                <li><strong>ライトシールド:</strong> HPとプラスで耐久値を25増やすシールド。400クレジットで購入可能。</li>
+                <li><strong>回復シールド:</strong>
+                    最初にHPとプラスで耐久値を25増やすシールド。シールドが削られると3秒後にシールドの耐久値が25回復。回復量が耐久値50までのため、2回分回復可能。650クレジットで購入可能。</li>
+                <li><strong>ヘビーシールド:</strong> HPとプラスで耐久値を50増やすシールド。1000クレジットで購入可能。</li>
+            </div>
+        </ul>
+
+
+
+        <h3>キー設定(初期)</h3>
+        <p>主によく使うキーを紹介する。</p>
+        <div class="key">
+            <table border="1">
+                <tr>
+                    <th>移動</th>
+                    <th>キー(初期設定時)</th>
+                </tr>
+                <tr>
+                    <td>前進</td>
+                    <td>Wキー</td>
+                </tr>
+                <tr>
+                    <td>左に進む</td>
+                    <td>Aキー</td>
+                </tr>
+                <tr>
+                    <td>後退</td>
+                    <td>Sキー</td>
+                </tr>
+                <tr>
+                    <td>右に進む</td>
+                    <td>Dキー</td>
+                </tr>
+                <tr>
+                    <td>ジャンプ</td>
+                    <td>space(スペース)キー</td>
+                </tr>
+                <tr>
+                    <td>歩く</td>
+                    <td>shift(シフト)キー</td>
+                </tr>
+                <tr>
+                    <td>しゃがむ</td>
+                    <td>left ctrl(レフトコントロール)キー</td>
+                </tr>
+                <tr>
+                    <th>装備</th>
+                    <th>キー(初期設定時)</th>
+                </tr>
+                <tr>
+                    <td>射撃</td>
+                    <td>左クリック</td>
+                </tr>
+                <tr>
+                    <td>スコープを覗くorオルト射撃</td>
+                    <td>右クリック</td>
+                </tr>
+                <tr>
+                    <td>リロード</td>
+                    <td>Rキー</td>
+                </tr>
+                <tr>
+                    <td>プライマリー武器に切り替え</td>
+                    <td>1キー</td>
+                </tr>
+                <tr>
+                    <td>サイドアーマー武器に切り替え</td>
+                    <td>2キー</td>
+                </tr>
+                <tr>
+                    <td>ナイフに切り替え</td>
+                    <td>3キー</td>
+                </tr>
+                <tr>
+                    <td>スキル1</td>
+                    <td>Cキー</td>
+                </tr>
+                <tr>
+                    <td>スキル2</td>
+                    <td>Qキー</td>
+                </tr>
+                <tr>
+                    <td>スキル3</td>
+                    <td>Eキー</td>
+                </tr>
+                <tr>
+                    <td>アルティメットスキル</td>
+                    <td>Xキー</td>
+                </tr>
+                <tr>
+                    <td>スパイクを設置/解除/装備</td>
+                    <td>4キー</td>
+                </tr>
+                <tr>
+                    <td>オブジェクトを使用する</td>
+                    <td>Fキー</td>
+                </tr>
+
+                <tr>
+                    <th>コミュニケーション</th>
+                    <th>キー(初期設定時)</th>
+                </tr>
+                <tr>
+                    <td>ピンを立てる</td>
+                    <td>Zキー</td>
+                </tr>
+                <tr>
+                    <td>チーム内ボイスチャット</td>
+                    <td>Vキー</td>
+                </tr>
+                <tr>
+                    <th>インターフェース</th>
+                    <th>キー(初期設定時)</th>
+                </tr>
+                <tr>
+                    <td>マップを開く</td>
+                    <td>Mキー</td>
+                </tr>
+                <tr>
+                    <td>スコアボードを表示</td>
+                    <td>Tab(タブ)キー</td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+</body>
+
+</html>
