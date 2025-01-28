@@ -1,0 +1,210 @@
+/* 全体のレイアウト */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f1923;
+    /* VALORANTの暗い背景 */
+    color: #ffffff;
+    /* 明るいテキスト */
+}
+
+/* ヘッダー */
+header {
+    background-color: #ff4655;
+    padding: 30px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    /* 横幅を常に100%に */
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ナビゲーション */
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    width: 100%;
+    /* 横幅を常に100%に */
+    box-sizing: border-box;
+    /* パディングやマージンを含めた計算を有効に */
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-evenly;
+    /* 均等配置 */
+    align-items: center;
+    width: 100%;
+}
+
+.main-menu>li {
+    position: relative;
+    flex-grow: 1;
+    /* 項目を均等に伸ばす */
+    text-align: center;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 0;
+    background-color: #444444;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    width: 100%;
+    /* リンクを項目の横幅全体に広げる */
+}
+
+.main-menu a:hover {
+    background-color: #ff4655;
+}
+
+/* ドロップダウンメニュー */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444444;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: max-content;
+    /* メニュー幅をコンテンツに合わせる */
+}
+
+.dropdown-menu li {
+    padding: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ff4655;
+}
+
+/* ドロップダウンの表示切替 */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* セクションタイトル */
+.map-overview h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #ff4655;
+    font-size: 1.8rem;
+}
+
+/* マップカードのレイアウト */
+.map-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* 各マップカードのスタイル */
+.map-card {
+    background-color: #2a2a2a;
+    /* ダークグレーのカード背景 */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*.map-card:hover {
+    transform: translateY(-5px);
+    /* ホバーで浮き上がる効果 */
+/*box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}*/
+
+/* マップ画像 */
+.map-image {
+    width: 100%;
+    /* カード幅に合わせる */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* マップ名 */
+.map-card h3 {
+    margin: 10px 0;
+    font-size: 2rem;
+    color: #ff4655;
+    /* VALORANTの赤色 */
+}
+
+/* マップの説明文 */
+.map-card p {
+    font-size: 1.7rem;
+    color: #dcdcdc;
+    /* 明るめの文字色 */
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+
+/* おすすめエージェントセクション */
+.agent-recommendation {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.agent-recommendation h4 {
+    font-size: 1.5rem;
+    color: #ff4655;
+    margin-bottom: 10px;
+}
+
+.agent-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.agent {
+    text-align: center;
+}
+
+.agent-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ff4655;
+    margin-bottom: 5px;
+}
+
+.agent p {
+    font-size: 0.65rem;
+    color: #dcdcdc;
+}
