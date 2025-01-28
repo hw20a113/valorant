@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT初心者まとめサイト</title>
+    <link rel="stylesheet" href="agent_initiator.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>VALORANT初心者向けまとめサイト(パッチ9.11までの情報)</h1>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html" class="menu">ホーム画面</a></li>
+                <li><a href="beginner.html" class="menu">初心者が上達するためには</a></li>
+                <li class="dropdown">
+                    <a href="agent.html" class="menu">エージェント紹介</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="agent.html#duelist" class="submenu">デュエリスト</a></li>
+                        <li><a href="agent_initiator.html" class="submenu">イニシエーター</a></li>
+                        <li><a href="agent_sentinel.html" class="submenu">センチネル</a></li>
+                        <li><a href="agent_controller.html" class="submenu">コントローラー</a></li>
+                    </ul>
+                </li>
+                <li><a href="map.html" class="menu">マップ紹介</a></li>
+                <li><a href="VALORANT1.html" class="menu">VALORANT用語紹介</a></li>
+                <li><a href="proteam.html" class="menu">プロチームの紹介</a></li>
+                <li><a href="tournament.html" class="menu">世界大会や日本の大会の紹介</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <header>
+        <h1>イニシエーター</h1>
+    </header>
+    <main>
+        <section id="initiator">
+            <div class="agents-container">
+                <!-- エージェント1 -->
+                <div class="agent-card">
+                    <h3>ソーヴァ</h3>
+                    <img src="sova-image.png" alt="ソーヴァ" class="agent-image">
+                    <p>弓やドローンを使い、索敵するロシア出身のイニシエーター。</p>
+                    <p>定点などがあり、覚えることがあるが、スキルはシンプルで使いやすい。しかし、ドローンの操作だけが難しい。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star half-filled">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">3.5/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="sova_skill.png" alt="オウルドローン" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>オウルドローン</h5>
+                                    <p>索敵するドローンを使用する。操作中にマーキングダーツを発射し、このダーツが敵に命中すれば2回強調表示で位置が表示される。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="sova_skill2.png" alt="ショックボルト" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ショックボルト</h5>
+                                    <p>弓を構え、前方に放つ。左クリックの長押し度合いで距離が変わる。右クリックで最大2回までバウンドする。矢が着弾した場所の周囲の敵にダメージを与える。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="sova_skill3.png" alt="リコンボルト" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>リコンボルト</h5>
+                                    <p>弓を構え、前方に放つ。左クリックの長押し度合いで距離が変わる。右クリックで最大2回までバウンドする。矢が着弾すると視線が通る敵の位置を特定する。特定された場合は強調表示で表示される。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="sova_ult.png" alt="ハンターズフューリー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ハンターズフューリー</h5>
+                                    <h6>必要ポイント数:8</h6>
+                                    <p>弓を構え、最大3回打てるエナジーブラストが使用可能。エナジーブラストは一直線に発射され、射程距離が長く、壁を貫通する。敵にダメージを与えるとその位置を表示する。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント2 -->
+                <div class="agent-card">
+                    <h3>ブリーチ</h3>
+                    <img src="breach-image.png" alt="ブリーチ" class="agent-image">
+                    <p>スウェーデン出身のイニシエーター。敵に撹乱を与え、戦況を有利にする。</p>
+                    <p>スキルは強いが、味方との連携が必要なため、パーティーを組んだ際に強力。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">4/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="breach_skill.png" alt="アフターショック" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>アフターショック</h5>
+                                    <p>障害物に発射して、貫通して2回爆発を起こす。円状の範囲が出てきて、その範囲内にいるプレイヤーはダメージを受ける。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="breach_skill2.png" alt="フラッシュポイント" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>フラッシュポイント</h5>
+                                    <p>指定した壁の向こう側にフラッシュが発動し、目をくらます。フラッシュが画面内に入ったプレイヤー全ての目をくらませる。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="breach_skill3.png" alt="フォールトライン" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>フォールトライン</h5>
+                                    <p>地面を揺らして、直線範囲に衝撃波を相手を妨害する。スキルゲージがあり、左クリック長押しで飛距離を伸ばすことが可能。直線範囲内に入った敵と味方の移動速度低下、視界が揺れる、エイムがブレ、発射レートが遅くなる(スタン状態)。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="breach_ult.png" alt="ローリングサンダー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ローリングサンダー</h5>
+                                    <h6>必要ポイント数:9</h6>
+                                    <p>広範囲を揺らし、敵を大きく妨害する。範囲内にいる敵と味方の移動速度低下、視界が揺れる、エイムがブレ、発射レートが遅くなる(スタン状態)。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント3 -->
+                <div class="agent-card">
+                    <h3>スカイ</h3>
+                    <img src="sky-image.png" alt="スカイ" class="agent-image">
+                    <p>オーストラリア出身の獣たちを使い索敵を行う。</p>
+                    <p>ガイディングライトの操作が難しいが、その他のスキルは簡単で使いやすい。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">4/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="sky_skill.png" alt="リグロウス" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>リグロウス</h5>
+                                    <p>味方を回復するスキル。範囲が決められており、左クリック長押し中は範囲内にいる味方全員回復する。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="sky_skill2.png" alt="トレイルブレイザー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>トレイルブレイザー</h5>
+                                    <p>猛獣を操作し、索敵する。ジャンプ可能。視界が悪く見える距離が限られている。敵に噛み付くことができ、噛み付かれたらダメージを受け、移動速度低下、視界が揺れる、エイムがブレ、発射レートが遅くなる(スタン状態)。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="sky_skill3.png" alt="ガイディングライト" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ガイディングライト</h5>
+                                    <p>鳥を構え、放ち、目をくらませる。左クリック長押ししながら、マウス操作で上下左右移動できる。好きなタイミングで起爆でき、目をくらませる。操作中に時間切れになると自動的に起爆する。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="sky_ult.png" alt="シーカー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>シーカー</h5>
+                                    <h6>必要ポイント数:8</h6>
+                                    <p>近くの敵を追尾するシーカー最大3体を放つ。シーカーに直撃した敵は視界がぼやけ、周囲の音が聞き取りにくい状態になる。シーカーは銃で破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント3 -->
+                <div class="agent-card">
+                    <h3>KAY/O</h3>
+                    <img src="kayo-image.png" alt="KAY/O" class="agent-image">
+                    <p>戦闘兵器。スキルを封じ込み、戦況を優位に進める。</p>
+                    <p>マウス操作などのスキルもなく、スキルも強く、どのマップでも基本使えるため、初心者におすすめ。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <!-- <span class="star half-filled">★</span> -->
+                            <p class="rating-score">5/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="kayo_skill.png" alt="フラグ/メント" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>フラグ/メント</h5>
+                                    <p>地面に落ちると落下地点を中心に、ダメージを与える範囲円が出てきて、4回衝撃波を与える。範囲円内にいると、全プレイヤーダメージを受ける。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="kayo_skill2.png" alt="フラッシュ/ドライブ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>フラッシュ/ドライブ</h5>
+                                    <p>左クリックで投擲し、数秒後炸裂し、目をくらませる。右クリックで下手投げて近くで炸裂することも可能。画面内にフラッシュ/ドライブが映った場合全プレイヤー目をくらます。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="kayo_skill3.png" alt="ゼロ/ポイント" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ゼロ/ポイント</h5>
+                                    <p>スキルを封じさせるナイフを左クリックで投擲する。ナイフは直撃した場所に刺さり、範囲内にいた敵はスキルが約8秒間使用できなくなる。</p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="kayo_ult.png" alt="ヌル/コマンド" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ヌル/コマンド</h5>
+                                    <h6>必要ポイント数:8</h6>
+                                    <p>一時的にKAY/Oを中心とし広範囲に敵のスキルを使えなくさせるパルスを発生させる。KAY/O自身は発射レートとリロードの速度が上昇する。ダウンするとその場で止まり、倒されるまではヌル/コマンド使用状態が続く。ダウン状態から味方に起こしてもらうことも可能。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント5 -->
+                <div class="agent-card">
+                    <h3>フェイド</h3>
+                    <img src="fade-image.png" alt="フェイド" class="agent-image">
+                    <p>トルコ出身のイニシエーター。悪夢の力を使い、敵を索敵する。</p>
+                    <p>定点やマウス操作が必要なスキルがあり、覚えることがあるが、使い方がシンプルなため初心者に向いている。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">4/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="fade_skill.png" alt="プラウラー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>プラウラー</h5>
+                                    <p>最初に視界に入った敵を追跡する索敵スキル。敵がプラウラーに直撃すると約4秒視界が悪くなる。テラートレイルに沿わせることが可能。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="fade_skill2.png" alt="シーズ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>シーズ</h5>
+                                    <p>敵の行動を封じる拘束スキル。シーズを投げると地面にゾーンができ、地面に着地した際にゾーンの範囲内にいた敵は拘束され、動きが制限される。衰弱効果により一時的にHPとシールドが減り、聴力を失う。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="fade_skill3.png" alt="ホウント" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ホウント</h5>
+                                    <p>黒い球体を投げ着弾した際に敵をスキャンする索敵スキル。スキャンされるとテラートレイルと言われる一時的に黒い線が繋がれ、移動先を把握できる。相手の高い場所でも設置可能で広範囲を索敵できる。銃で破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="fade_ult.png" alt="ナイトフォール" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ナイトフォール</h5>
+                                    <h6>必要ポイント数:7</h6>
+                                    <p>範囲内の敵にHPとシールドが一時的に減る衰弱効果と聴力を奪う。敵に当たるたびに音がするため何人当たったかがわかる。敵にしか当たらないため味方には被害が及ばない。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント6 -->
+                <div class="agent-card">
+                    <h3>ゲッコー</h3>
+                    <img src="gekko-image.png" alt="ゲッコー" class="agent-image">
+                    <p>アメリカロサンゼルス出身のイニシエーター。クリーチャーたちを操り、フラッシュやスタンを使い勝利に貢献する。
+                    </p>
+                    <p>スパイクを持たされるエージェントであり、設置する位置などを覚えないといけない。アルティメットスキルは操作が難しいがそれ以外のスキルは使いやすく初心者向け。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star half-filled">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">3.5/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="gekko_skill.png" alt="モッシュピット" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>モッシュピット</h5>
+                                    <p>着弾後に範囲内に3回ダメージを受ける液体のグレネード。特定のエリアを制圧したり、敵を追い払える。範囲内にいると全プレイヤーダメージを受ける。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="gekko_skill2.png" alt="ウィングマン" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ウィングマン</h5>
+                                    <p>左クリックで歩いて前進する。壁に当たると跳ね返る。敵を検知すると追跡する。直撃すると移動速度低下、視界が揺れる、エイムがブレ、発射レートが遅くなる(スタン状態)。ウィングマンがスパイクを設置や解除を行うことも可能。銃やスキルに破壊可能。使用したあと球体のようなものが落ちており、回収が可能であり、回収した場合クールタイム後に再使用できる。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="gekko_skill3.png" alt="ディジー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ディジー</h5>
+                                    <p>ディジーを投擲し、敵を検知すると目くらましのフラッシュを発射する。目くらましを食らうと、ペンキで塗られたような画面になる。画面内に入ると目くらましを受ける。銃により破壊可能。障害物に隠れたりすることで避けることが可能。使用したあと球体のようなものが落ちており、回収が可能であり、回収した場合クールタイム後に再使用できる。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="gekko_ult.png" alt="スラッシュ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>スラッシュ</h5>
+                                    <h6>必要ポイント数:8</h6>
+                                    <p>左クリックで飛び、爆発する。範囲内にいた敵は拘束され、武器を持てなくなり、移動速度も低下する。使用したあと球体のようなものが落ちており、回収が可能であり、回収した場合クールタイム後に再使用できる。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
