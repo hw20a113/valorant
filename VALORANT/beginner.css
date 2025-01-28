@@ -150,6 +150,16 @@ nav {
     padding: 0;
 }
 
+.game-info a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.game-info a:hover {
+    text-decoration: underline;
+    color: #ff4655;
+}
+
 /* 各ゲームモードのスタイル */
 .game-mode {
     background-color: #333;
