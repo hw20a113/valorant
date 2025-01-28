@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT初心者まとめサイト</title>
+    <link rel="stylesheet" href="agent_sentinel.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>VALORANT初心者向けまとめサイト(パッチ9.11までの情報)</h1>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html" class="menu">ホーム画面</a></li>
+                <li><a href="beginner.html" class="menu">初心者が上達するためには</a></li>
+                <li class="dropdown">
+                    <a href="agent.html" class="menu">エージェント紹介</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="agent.html#duelist" class="submenu">デュエリスト</a></li>
+                        <li><a href="agent_initiator.html" class="submenu">イニシエーター</a></li>
+                        <li><a href="agent_sentinel.html" class="submenu">センチネル</a></li>
+                        <li><a href="agent_controller.html" class="submenu">コントローラー</a></li>
+                    </ul>
+                </li>
+                <li><a href="map.html" class="menu">マップ紹介</a></li>
+                <li><a href="VALORANT1.html" class="menu">VALORANT用語紹介</a></li>
+                <li><a href="proteam.html" class="menu">プロチームの紹介</a></li>
+                <li><a href="tournament.html" class="menu">世界大会や日本の大会の紹介</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <header>
+        <h1>センチネル</h1>
+    </header>
+    <main>
+        <section id="initiator">
+            <div class="agents-container">
+                <!-- エージェント1 -->
+                <div class="agent-card">
+                    <h3>セージ</h3>
+                    <img src="sage-image.png" alt="セージ" class="agent-image">
+                    <p>中国出身のセンチネル。氷の力やでエリアを守り、回復もできる。</p>
+                    <p>スキルが全て扱いやすく、チームに貢献しやすいため初心者におすすめ。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <p class="rating-score">5/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="sage_skill.png" alt="バリアオーブ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>バリアオーブ</h5>
+                                    <p>左クリックで氷の壁を設置できる。右クリックを長押しすると向きを調節できる。壁を壊すには銃で破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="sage_skill2.png" alt="スロウオーブ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>スロウオーブ</h5>
+                                    <p>左クリックで投げる。オーブは壁に当たると跳ね返り、地面に触れると移動速度を低下させる氷の床が発生する。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="sage_skill3.png" alt="ヒーリングオーブ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ヒーリングオーブ</h5>
+                                    <p>味方のHPを回復できるオーブ。自身もHPの回復が可能。</p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="sage_ult.png" alt="リザレクション" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>リザレクション</h5>
+                                    <h6>必要ポイント数:7</h6>
+                                    <p>デスした味方を一人復活させる。復活した味方はHPが最大でシールドなどの付与はない。武器はデスした際の武器を所持している。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント2 -->
+                <div class="agent-card">
+                    <h3>サイファー</h3>
+                    <img src="cypher-image.png" alt="サイファー" class="agent-image">
+                    <p>モロッコ出身のセンチネル。あらゆる動きを監視して、敵の情報を得る。</p>
+                    <p>スキルを設置するため、設置場所を学ぶ必要がある。慣れるまでには少し時間がかかるが、慣れれば使いやすい。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star ">★</span>
+                            <p class="rating-score">4/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="cypher_skill.png" alt="トラップワイヤー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>トラップワイヤー</h5>
+                                    <p>左クリックでワイヤーを設置する。敵がワイヤーにかかると、強調表示で表示される。時間内にトラップワイヤーを破壊しなければ、数秒間画面がぼやけ、見える範囲が狭くなり、発射レートが遅くなる(麻痺、めまい状態)になる。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="cypher_skill2.png" alt="サイバーケージ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>サイバーケージ</h5>
+                                    <p>筒状のゲージを投擲する。カーソルを合わせて展開する。視界や斜線を妨げるスモークで、敵がゲージに入ると音が鳴るため、索敵能力も持っている。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="cypher_skill3.png" alt="スパイカメラ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>スパイカメラ</h5>
+                                    <p>左クリックで設置する。カメラを使い敵の情報を得る。カメラからはマーキングダーツを発射でき、敵に当てると位置を強調表示される。ダーツは外すまで永久に位置が表示される。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="cypher_ult.png" alt="ニューラルセフト" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ニューラルセフト</h5>
+                                    <h6>必要ポイント数:7</h6>
+                                    <p>デスした敵の体を使用し、敵の位置を暴く。生存している敵の位置を数秒の時間差で2回表示される。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- エージェント3 -->
+                <div class="agent-card">
+                    <h3>キルジョイ
+                    </h3>
+                    <img src="killjoy-image.png" alt="キルジョイ" class="agent-image">
+                    <p>ドイツ出身のセンチネル。兵器を設置し、エリアを死守する。</p>
+                    <p>スキルが扱いやすく、アラームボットやタレットなどで情報を取れるため使いやすい。しかし、キルジョイ自身が設置したスキルから離れすぎるとスキルが機能しなくなるため、その範囲を気を付けることや、ある程度の設置場所は学ぶ必要がある。
+                    </p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star half-filled">★</span>
+                            <p class="rating-score">4.5/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="killjoy_skill.png" alt="ナノスワーム" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ナノスワーム</h5>
+                                    <p>左クリックで投擲する。右クリックで下手投げで投擲する。カーソルをナノスワームに合わせることで起爆する設置型の爆弾。起動すると円状の範囲が現れ、範囲内にいると全プレイヤーダメージを受ける。敵からは見えづらく、気づかないことがある。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="killjoy_skill2.png" alt="アラームボット" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>アラームボット</h5>
+                                    <p>左クリックで設置する。Qキー(初期設定時のスキル2のキー)を長押しすることで回収できる。アラームボットは透明になり、近づくことで爆発し、弱体化状態によりダメージが2倍になる。銃で破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="killjoy_skill3.png" alt="タレット" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>タレット</h5>
+                                    <p>左クリックで設置する。Eキー(初期設定時のスキル3のキー)を長押しすることで回収できる。タレットは100°の視界を持ち、敵が視界に入ると自動で攻撃する。銃やスキルで破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="killjoy_ult.png" alt="ロックダウン" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ロックダウン</h5>
+                                    <h6>必要ポイント数:9</h6>
+                                    <p>左クリックで設置する。設置から13秒以内に決められた範囲から出ないと敵は武器ととスキル使用ができず移動速度がかなり低下し、拘束される。ロックダウンは銃やスキルで破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント4 -->
+                <div class="agent-card">
+                    <h3>チェンバー</h3>
+                    <img src="chamber-image.png" alt="チェンバー" class="agent-image">
+                    <p>フランス出身のセンチネル。撃ち合い重視のエージェントで敵のキルを狙う。</p>
+                    <p>撃ち合うためのスキルが多く、初心者には向かない。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">2/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="chamber_skill.png" alt="トレードマーク" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>トレードマーク</h5>
+                                    <p>左クリックで設置する。敵が近づくと反応し、地面に移動速度が低下するフィールドが一時的に発生する。銃やスキルで破壊可能。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="chamber_skill2.png" alt="ヘッドハンター" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ヘッドハンター</h5>
+                                    <p>左クリックで発射する。右クリックでサイトを覗く。ハンドガンでどの距離もヘッドショット一撃で倒すことが可能。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="chamber_skill3.png" alt="ランデヴー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ランデヴー</h5>
+                                    <p>テレポートアンカーを左クリックで設置する。範囲内でQキー(初期設定スキル3のキー)を押すと、テレポートアンカーの元へテレポートする。アンカーは銃やスキルで破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="chamber_ult.png" alt="ツール・ド・フォース" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ツール・ド・フォース</h5>
+                                    <h6>必要ポイント数:8</h6>
+                                    <p>チェンバー特有のスナイパーを持つことができる。頭と胴体に当たれば一撃で倒せる。倒した敵の周囲の地面には移動速度が低下するフィールドが展開される。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント5 -->
+                <div class="agent-card">
+                    <h3>デッドロック</h3>
+                    <img src="deadrock-image.png" alt="デッドロック" class="agent-image">
+                    <p>ノルウェー出身のセンチネル。敵の動きを封じ込むことやエリアをコントロールすることに特化したエージェント。</p>
+                    <p>スキルは強力だが、設置場所とタイミングを間違えると効果がないエージェント。敵の位置を読む力が必要なため初心者には少し難しい。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star half-filled">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">3.5/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="deadrock_skill.png" alt="グラヴィネット" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>グラヴィネット</h5>
+                                    <p>左クリックで投擲する。右クリックで下手投げで投擲する。範囲内にいたプレイヤー全て強制的にしゃがみ状態になる。取り外すまでしゃがみ状態のままが続く。取り外す際は大きな音が出てしまう。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="deadrock_skill2.png" alt="ソニックセンサー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>ソニックセンサー</h5>
+                                    <p>左クリックで設置する。範囲内で敵が音を出すと検知して、範囲内にいる敵は移動速度低下、視界が揺れる、エイムがブレ、発射レートが遅くなる(スタン状態)。銃やスキルなどで破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="deadrock_skill3.png" alt="バリアメッシュ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>バリアメッシュ</h5>
+                                    <p>左クリックで投擲する。敵の進行を防ぐための十字状に4つのバリアを展開する。バリアにある青い球体の部分を撃つことで破壊可能。</p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="deadrock_ult.png" alt="アナイアレーション" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>アナイアレーション</h5>
+                                    <h6>必要ポイント数:7</h6>
+                                    <p>右クリックで発動します。敵を封じ込め動けなくさせ排除する捕獲スキル。壁を貫通して捕獲することができる。捕まると味方に撃ってもらうことで捕獲から脱出できる。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エージェント6 -->
+                <div class="agent-card">
+                    <h3>ヴァイス</h3>
+                    <img src="vais-image.png" alt="ヴァイス" class="agent-image">
+                    <p>出身は不明。金属を操る達人。敵をサイトに引き込み分断させるスキルやフラッシュスキルなどを使いキルを作り出す。</p>
+                    <p>スキルに少しクセがあり、使いこなすにはある程度の時間が必要。</p>
+                    <div class="beginner-rating">
+                        <h4>初心者の使いやすさ</h4>
+                        <div class="rating-stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <p class="rating-score">3/5</p>
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h4>スキル</h4>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <img src="vaisu_skill.png" alt="レーザーヴァイン" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>レーザーヴァイン</h5>
+                                    <p>左クリックで発射する。カーソルに合わせ、使用キーを押すことで使用できる。ネストという液体金属の範囲が地面にでき、その範囲を通過する際に全プレイヤーにダメージと移動速度の低下が起こる。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="vaisu_skill2.png" alt="シアー" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>シアー</h5>
+                                    <p>左クリックで壁のトラップを設置する。敵が通過すると、トラップが作動し、設置場所から破壊不可能な壁が出現する。壁は短時間で消滅する。</p>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <img src="vaisu_skill3.png" alt="アークローズ" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>アークローズ</h5>
+                                    <p>左クリックで壁や地面障害物に付けることが可能。右クリックを押し、左クリックを押すと壁の裏や障害物の裏に設置することが可能。設置したあとにEキー(初期設定時のスキル3のキー)を押すことでフラッシュを放つ。フラッシュは20秒後に再発動可能。銃やスキルで破壊可能。
+                                    </p>
+                                </div>
+                            </div>
+                            <h4>アルティメットスキル</h4>
+                            <div class="skill">
+                                <img src="vaisu_ult.png" alt="スチールガーデン" class="skill-icon">
+                                <div class="skill-text">
+                                    <h5>スチールガーデン</h5>
+                                    <h6>必要ポイント数:8</h6>
+                                    <p>広範囲に金属のトゲが噴出する。その範囲内の敵はプライマリー武器(サイドアームとスキルで使える武器は除く)を約10秒間使用不可能にする。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
