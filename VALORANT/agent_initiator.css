@@ -132,15 +132,29 @@ nav {
     /*transition: transform 0.3s, box-shadow 0.3s;*/
 }
 
+.agent-card a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.agent-card a:hover {
+    text-decoration: underline;
+    color: #ff4655;
+}
+
+
+
+
 .agent-card h3 {
-    font-size: 1.5em;
+    font-size: 2.5em;
+}
+
+.agent-card h4 {
+    font-size: 1.3em;
+    color: #ff4655;
 }
 
 .agent-card p {
-    font-size: 1.5em;
-}
-
-.beginner-rating h4 {
     font-size: 1.5em;
 }
 
@@ -149,6 +163,10 @@ nav {
     /* ホバー時に拡大 */
 /*box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);*/
 /*}*/
+
+.beginner-rating h4 {
+    font-size: 1.5em;
+}
 
 /* エージェントの画像 */
 .agent-image {
@@ -167,6 +185,16 @@ nav {
 
 .skills-section h4 {
     font-size: 1.5em;
+}
+
+.skills-section a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.skills-section a:hover {
+    text-decoration: underline;
+    color: #ff4655;
 }
 
 .skills-grid {
