@@ -265,6 +265,16 @@ td {
     /* データセルの背景色 */
 }
 
+tr td a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+tr td a:hover {
+    text-decoration: underline;
+    color: #ff4655;
+}
+
 td strong {
     color: #ff4655;
     /* 強調テキストを赤色で */
