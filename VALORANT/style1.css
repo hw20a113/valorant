@@ -141,7 +141,18 @@ nav {
     font-size: 2em;
     color: #ff4655;
     /* セクションタイトルも赤で強調 */
+    margin-top: 40px;
     margin-bottom: 10px;
+}
+
+.game-info a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.game-info a:hover {
+    text-decoration: underline;
+    color: #ff4655;
 }
 
 .highlight-text {
@@ -287,6 +298,7 @@ a h4 {
     font-size: 2em;
     color: #f2f2f2;
     /* 明るい文字色 */
+    margin-top: -10px;
     margin-bottom: 10px;
 }
 
@@ -296,6 +308,10 @@ a h4 {
 
 .win-mode li {
     font-size: 1.5em;
+}
+
+.money-mode h3 {
+    margin-top: 50px;
 }
 
 .money-mode li strong {
@@ -335,6 +351,7 @@ a h4 {
     font-size: 1em;
 }
 
+
 /* 画像を中央揃えにするコンテナ */
 .image-container {
     display: flex;
@@ -352,8 +369,10 @@ a h4 {
 }
 
 .image-container img {
-    width: 450px;
+    width: 525px;
     height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* テーブル全体のスタイル */
