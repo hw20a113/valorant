@@ -235,6 +235,19 @@ table {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.team-overview tr,
+td a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.team-overview tr,
+td a:hover {
+    text-decoration: underline;
+    color: #ff4655;
+}
+
+
 th,
 td {
     border: 1px solid #444444;
