@@ -26,6 +26,7 @@ header h1 {
     text-align: center;
 }
 
+
 /* ナビゲーション */
 nav {
     margin: 0;
@@ -135,12 +136,28 @@ nav {
     margin-bottom: 20px;
 }
 
+.game-info h3 {
+    font-size: 2em;
+    color: #ff4655;
+    /* セクションタイトルも赤で強調 */
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+
 /* セクションタイトル */
-.game-info h3,
 .game-info h4 {
     font-size: 2em;
     color: #ff4655;
     /* セクションタイトルも赤で強調 */
+    margin-bottom: 10px;
+}
+
+/* セクションタイトル */
+.game-info h6 {
+    font-size: 1.5em;
+    color: #f2f2f2;
+    /* 明るい文字色 */
     margin-bottom: 10px;
 }
 
@@ -240,12 +257,15 @@ th {
 td {
     background-color: #2a2a2a;
     /* データセルの背景色 */
+    white-space: nowrap;
+    font-size: 1.4em;
 }
 
 td strong {
     color: #ff4655;
     /* 強調テキストを赤色で */
 }
+
 
 /* レスポンシブデザイン */
 @media (max-width: 768px) {
